@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../MainLayout/Main/Main";
 import Home from "../Pages/Home/Home/Home";
+import VerifyTicket from "../Pages/VerifyTicket/VerifyTicket";
 
 export const router = createBrowserRouter([
   {
@@ -10,6 +11,10 @@ export const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/verifyTicket",
+        element: <VerifyTicket />,
       },
     ],
   },
