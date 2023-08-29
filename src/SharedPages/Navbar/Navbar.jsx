@@ -10,7 +10,6 @@ const Navbar = () => {
       <li>
         <Link>Home</Link>
       </li>
-
       <li>
         <Link>Train Information</Link>
       </li>
