@@ -1,5 +1,8 @@
 import SearchTrain from "../../../components/SearchTrain/SearchTrain";
 import Bannar from "../../../components/Bannar/Bannar";
+import TSection from "../TSection/TSection";
+import Instructions from "../Instructions/Instructions";
+import PayImageSection from "../PayImageSection/PayImageSection";
 
 const Home = () => {
   return (
@@ -8,6 +11,9 @@ const Home = () => {
         <SearchTrain />
         <Bannar />
       </div>
+      <TSection />
+      <Instructions />
+      <PayImageSection />
     </div>
   );
 };
